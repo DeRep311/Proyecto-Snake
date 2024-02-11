@@ -1,0 +1,74 @@
+*{
+ font-family: 'Sixtyfour', sans-serif;;
+}
+
+body{
+ margin: 0;
+ padding: 0;
+
+
+
+}
+
+.Contenedor{
+    display: flex;
+   max-width: 800px;
+    flex-direction: column;
+
+}
+
+#Tabla{
+    background-color: #456990;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+
+}
+#start , .TablaInfo{
+    font-size: 25px;
+}
+
+#perdiste{
+    display: none;
+}
+
+.TablaInfo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#tablapuntos{
+    display: inline-flex;
+}
+
+.cuadrado{
+
+    aspect-ratio: 1;
+
+}
+
+.cuadradovacio{
+    background-color: #456990;
+}
+
+.cuadradoserpiente{
+    background-color: green;
+}
+
+.cuadradocomida{
+    background-color: red;
+}
+.ArrowUp{
+    border-radius: 10px 10px 0px 0px;
+
+}
+.ArrowDown{
+    border-radius: 0px 0px 10px 10px;
+}
+.ArrowLeft{
+    border-radius: 10px 0px 0px 10px;
+}
+.ArrowRight{
+    border-radius: 0px 10px 10px 0px;
+}
+
+ 
